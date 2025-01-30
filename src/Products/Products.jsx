@@ -1,6 +1,5 @@
 import React from "react";
 import "./Products.css";
-<<<<<<< HEAD
 import { AiFillStar } from "react-icons/ai";
 import { BsFillBagHeartFill } from "react-icons/bs";
 
@@ -36,11 +35,6 @@ const Products = () => {
       </section>
     </>
   );
-=======
-
-const Products = () => {
-  return <div>Products</div>;
->>>>>>> f48fe5f3b5a0c6a4d9d79cd7b7175032e1330e0e
 };
 
 export default Products;

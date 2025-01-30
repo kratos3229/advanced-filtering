@@ -2,7 +2,6 @@ import React from "react";
 import "./Recommended.css";
 
 const Recommended = () => {
-<<<<<<< HEAD
   return (
     <>
       <div>
@@ -17,9 +16,6 @@ const Recommended = () => {
       </div>
     </>
   );
-=======
-  return <div>Recommended</div>;
->>>>>>> f48fe5f3b5a0c6a4d9d79cd7b7175032e1330e0e
 };
 
 export default Recommended;
