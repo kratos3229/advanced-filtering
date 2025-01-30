@@ -42,6 +42,10 @@
   align-items: center;
 }
 
+.price del {
+  margin-right: 4px;
+}
+
 .bag-icon {
   color: #535353;
 }
