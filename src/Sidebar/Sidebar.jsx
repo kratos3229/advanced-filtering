@@ -6,7 +6,9 @@ import Price from "./Price/Price";
 import Colors from "./Colors/Colors";
 import Size from "./Size/Size";
 
-const Sidebar = () => {
+const Sidebar = ({ handleRadioChange }) => {
+  console.log(handleRadioChange);
+
   return (
     <>
       <section className="sidebar">
@@ -15,10 +17,9 @@ const Sidebar = () => {
             <AiOutlineShoppingCart />
           </h1>
         </div>
-        <Category />
-        <Price />
-        <Colors />
-        <Size />
+        <Category handleRadioChange={handleRadioChange} />
+        <Price handleRadioChange={handleRadioChange} />
+        <Colors handleRadioChange={handleRadioChange} />
       </section>
     </>
   );

@@ -67,12 +67,14 @@ const App = () => {
     );
   }
 
+  const result = filteredData(productData, selectedCategory, query);
+
   return (
     <>
-      <Sidebar />
-      <Navigation />
-      <Recommended />
-      <Products />
+      <Sidebar handleRadioChange={handleRadioChange} />
+      <Navigation handleInputChange={handleInputChange} query={query} />
+      <Recommended handleButtonClick={handleButtonClick} />
+      <Products result={result} />
     </>
   );
 };
